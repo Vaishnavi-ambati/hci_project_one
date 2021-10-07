@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <title>Home!!</title>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"> </script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+  <div class="container">
+    <article>
+      <h3>Historical Data of percentage usage of various mobile phone features and applications</h3>
+    </article>
+    <hr>
+    <div class="row">
+
+      <!-- table -->
+      <div class="col table v1">
+        <table id="percentage-table" class="table table-hover gridview v1">
+          <thead>
+            <tr>
+              <th scope="col">Feature & Apps</th>
+              <th scope="col">2016</th>
+              <th scope="col">2017</th>
+              <th scope="col">2018</th>
+              <th scope="col">2019</th>
+              <th scope="col">2020</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr id="calls">
+              <td>Make Calls</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('CL01')">100</a></td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('CL01')">100</a></td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('CL01')">100</a></td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('CL01')">100</a></td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('CL01')">100</a></td>
+            </tr>
+
+            <tr id="messages">
+              <td>Send & Receive messages</td>
+              <td>78</td>
+              <td>92</td>
+              <td>94</td>
+              <td>94</td>
+              <td>96</td>
+            </tr>
+
+            <tr id="photos">
+              <td>Take photos</td>
+              <td>60</td>
+              <td>72</td>
+              <td>90</td>
+              <td>92</td>
+              <td>94</td>
+            </tr>
+
+            <tr id="internet">
+              <td>Browse Internet</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('IT01')">80</a></td>
+              <td>85</td>
+              <td>90</td>
+              <td>93</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('IT02')">96</a></td>
+            </tr>
+
+            <tr id="songs">
+              <td>Listen Songs</td>
+              <td>40</td>
+              <td>68</td>
+              <td>80</td>
+              <td>85</td>
+              <td>88</td>
+            </tr>
+
+            <tr id="video">
+              <td>Record Video</td>
+              <td>17</td>
+              <td>20</td>
+              <td>31</td>
+              <td>38</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('VD01')">48</a></td>
+            </tr>
+
+            <tr id="shopping">
+              <td>Online Shopping</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('SH01')">40</a></td>
+              <td>65</td>
+              <td>83</td>
+              <td>86</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('SH02')">88</a></td>
+            </tr>
+
+            <tr id="money-transfer">
+              <td>Money Transfer</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('MT01')">40</a></td>
+              <td>57</td>
+              <td>65</td>
+              <td>78</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('MT01')">82</a></td>
+            </tr>
+
+            <tr id="games">
+              <td>Games</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('GS01')">48</a></td>
+              <td>52</td>
+              <td>57</td>
+              <td>58</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('GS02')">62</a></td>
+            </tr>
+
+            <tr id="file-transfer">
+              <td>File Transfer</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('FT01')">9</a></td>
+              <td>38</td>
+              <td>58</td>
+              <td>65</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('FT02')">69</a></td>
+            </tr>
+
+            <tr id="whatsapp">
+              <td>WhatsApp</td>
+              <td>20</td>
+              <td>45</td>
+              <td>60</td>
+              <td>75</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('WA01')">90</a></td>
+            </tr>
+
+            <tr id="facebook">
+              <td>Facebook</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('FB01')">45</a></td>
+              <td>60</td>
+              <td>70</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('FB02')">74</a></td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('FB03')">72</a></td>
+            </tr>
+
+            <tr id="instagram">
+              <td>Instagram</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('IS02')">33</a></td>
+              <td>38</td>
+              <td>45</td>
+              <td>75</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('IS01')">83</a></td>
+            </tr>
+
+            <tr id="telegram">
+              <td>Telegram</td>
+              <td>20</td>
+              <td>35</td>
+              <td>48</td>
+              <td>60</td>
+              <td>65</td>
+            </tr>
+
+            <tr id="messenger">
+              <td>Messenger</td>
+              <td><a class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('MS01')">25</a></td>
+              <td>28</td>
+              <td>35</td>
+              <td>39</td>
+              <td>43</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- paragraph -->
+      <div class="col paragraph">
+
+        <p class="lead"> <b> Click on anyone of the numbers to highlight the row in the table below.
+          Click again to unhighlight. Blue text with red dotted line numbers are present in data and table</b> </p>
+          <hr>
+
+        <!-- on clicking the a tag below, the targeted row in the table will be highlighted. A unique 'id' should be given to each row element('tr') and this 'id' should be given a input to the highlight function. -->
+
+        <p>In the era of technical advancement, mobile phones play a very significant role. Technology has made our life quite easier. Life without a mobile phone seems to be quite impossible these days. Precisely, we become handicapped without a
+          phone in hand. Earlier it was only used for calling. But these days, everything is possible through a mobile phone. From sending a message to video calling, internet browsing, photography to video games, emailing and a lot more services can
+          be availed through this handheld phone. The table provides information about various function types used by mobile phone users across 15 categories in five specific years 2016, 2017, 2018, 2019, and 2020. Overall, it can be observed that
+          the most frequent usage of the mobile phone was to make calls since it is one of the primary functions of a mobile phone. The “make calls” feature has been used by <a id= "CL01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('calls')">100%</a> of the users in all the years. </p>
+
+        <p>The growth in usage of “Send or Receive messages” features can be directly correlated to the growth of the usage of messaging apps like WhatsApp, Messenger, and Telegram. It is clear from the table that WhatsApp has established clear
+          dominance with a usage percentage of <a id= "WA01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('whatsapp')">90%</a> in 2020 as compared to the next market leader Instagram with a usage of <a id="IS01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('instagram')">83%</a>. Although WhatsApp was less popular in 2016 compared to Messenger with <a id= "MS01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('messenger')">25%</a> usage in 2016 but WhatsApp usage has dramatically increased over the next years. Social applications are one of the most used applications in mobile phones. Although many applications exist in the market, Facebook and Instagram have established dominance. The usage of Facebook was in constant uprise from <a id = "FB01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('facebook')">45%</a> in 2016 to
+          <a id = "FB02" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('facebook')">74%</a> in 2019 but the usage has declined in 2020 to <a id="FB03" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('facebook')">72%</a>. One of the reasons for the decline would be competition from other social applications like Instagram. Instagram’s usage has been increasing from <a id="IS02" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('instagram')">33%</a> in 2016 to <a id = "IS01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table"
+            onclick="highlight('instagram')"> 83% </a> in 2018.</p>
+
+        <p>The “File Transfer” feature has increased dramatically from <a id="FT01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('file-transfer')">9%</a> in 2016 to <a id="FT02" class= "styling" data-toggle="tooltip"
+            data-placement="top" title="Click to see data in table" onclick="highlight('file-transfer')">69%</a> in 2020. The reason for this might be the advent of USB technology. The “Online shopping” feature has also increased a lot from <a id="SH01" class= "styling"
+            data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('shopping')">40%</a> in 2016 to <a id="SH02" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table"
+            onclick="highlight('shopping')">88%</a> in 2020. Internet browsing has also been on the rise from <a id="IT01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('internet')">80%</a> in 2016 to <a id="IT02" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('internet')">96%</a> in 2020. The least used feature is the Video recording feature with a usage percentage of <a id="VD01" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('video')">48%</a> in 2020. With new features like “tap pay” and money transfer via mobile, the “Money transfer” feature usage has increased from <a id = "MT01" class= "styling"
+            data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('money-transfer')">40%</a> in 2016 to <a id = "MT02" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table"
+            onclick="highlight('money-transfer')">82%</a> in 2020. Because of the rapid increase in the PC gaming industry, there is no significant increase in mobile gaming. It has increased from <a id = "GS01" class= "styling" data-toggle="tooltip" data-placement="top"
+            title="Click to see data in table" onclick="highlight('games')">48%</a> in 2016 to <a id = "GS02" class= "styling" data-toggle="tooltip" data-placement="top" title="Click to see data in table" onclick="highlight('games')">62%</a> in 2020.</p>
+
+        <p>In each of these years, the mobile use for calling was significantly higher than the other eight functions, with 100% usage levels in all five years. With the rapid increase in technology, usage of all the features and applications has
+          increased dramatically over the past 5 years.</p>
+
+      </div>
+
+    </div>
+
+</body>
+
+</html>
